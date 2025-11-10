@@ -1,5 +1,6 @@
 export async function GET() {
-  const tickets = [
+  
+    const tickets = [
     { id:'t-1001', title:'VPN broken', description:'User can’t connect to VPN.', priority:'High', status:'Open', assignee:'Unassigned', updatedAt:'2025-10-31T14:05:00Z' },
     { id:'t-1002', title:'Email delay', description:'Emails slow to send.', priority:'Medium', status:'In Progress', assignee:'Alice', updatedAt:'2025-11-01T09:20:00Z' },
     { id:'t-1003', title:'Reset fails', description:'Password reset link broken.', priority:'High', status:'Open', assignee:'Bob', updatedAt:'2025-11-02T11:15:00Z' },
@@ -13,5 +14,7 @@ export async function GET() {
     { id:'t-1011', title:'CRM sync', description:'Records not syncing.', priority:'High', status:'On Hold', assignee:'Hank', updatedAt:'2025-11-02T18:40:00Z' },
     { id:'t-1012', title:'New VM', description:'Request new dev VM.', priority:'Low', status:'Open', assignee:'Ivy', updatedAt:'2025-11-04T11:00:00Z' }
   ];
+  
   return Response.json(tickets);
 }
+ 

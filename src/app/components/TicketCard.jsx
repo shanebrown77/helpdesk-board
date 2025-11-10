@@ -1,4 +1,5 @@
 'use client';
+
 export default function TicketCard({ t, add, queued }) {
   return (
     <div className="ticket-card">
