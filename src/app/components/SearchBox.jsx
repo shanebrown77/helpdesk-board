@@ -1,6 +1,7 @@
 'use client';
 export default function SearchBox({ val, onChange }) {
-  return (
+  
+    return (
     <input
       value={val}
       onChange={e=>onChange(e.target.value)}

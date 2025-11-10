@@ -1,6 +1,7 @@
 'use client';
 export default function MyQueueSummary({ list, remove, clear }) {
-  return (
+  
+    return (
     <div className="queue-box">
       <h4>My Queue ({list.length})</h4>
       {!list.length && <p className="small">No tickets yet.</p>}
